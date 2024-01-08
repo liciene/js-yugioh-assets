@@ -139,7 +139,7 @@ async function checkDuelResults(playerCardId, computerCardId){
     };
         
     await playAudio(duelResults);
-    return duelResults
+    return duelResults;
 };
 
 async function removeAllCardsImages(){
